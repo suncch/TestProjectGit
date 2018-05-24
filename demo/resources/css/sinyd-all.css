@@ -1,0 +1,20 @@
+@import url("ligerui-all.css");
+
+.l-main-page-layout {
+	width:99.9%;
+	margin:0;
+	padding:0;
+}
+.l-page-top {
+	height:60px;
+	margin-bottom:3px;
+	text-align:center;
+}
+.l-page-bottom {
+	height:30px;
+	line-height:26px;
+	text-align:center;
+	background:url(../images/layout/page-bottom-back.gif) 0 0 repeat-x;
+	margin-top:4px;
+	color:#bbe0fa;
+}

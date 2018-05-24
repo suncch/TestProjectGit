@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqls namespace="auto2">
+<sqlElement key="TL_TUNNEL_INFO#insert" author="auto_generator">  
+		<![CDATA[ 
+			insert into 
+				TL_TUNNEL_INFO
+			(
+        		<#if id??>
+        			${idSymbol}id
+        		</#if>
+        		<#if tunnel_name??>
+        			${tunnel_nameSymbol}tunnel_name
+        		</#if>
+        		<#if tunnel_code??>
+        			${tunnel_codeSymbol}tunnel_code
+        		</#if>
+        		<#if construction_company??>
+        			${construction_companySymbol}construction_company
+        		</#if>
+        		<#if tunnel_length??>
+        			${tunnel_lengthSymbol}tunnel_length
+        		</#if>
+        		<#if tunnel_height??>
+        			${tunnel_heightSymbol}tunnel_height
+        		</#if>
+        		<#if traffic_time??>
+        			${traffic_timeSymbol}traffic_time
+        		</#if>
+        		<#if tunnel_direction??>
+        			${tunnel_directionSymbol}tunnel_direction
+        		</#if>
+        		<#if longitude??>
+        			${longitudeSymbol}longitude
+        		</#if>
+        		<#if latitude??>
+        			${latitudeSymbol}latitude
+        		</#if>
+        		<#if office_code??>
+        			${office_codeSymbol}office_code
+        		</#if>
+        		<#if create_timestamp??>
+        			${create_timestampSymbol}create_timestamp
+        		</#if>
+			)
+			values(
+        					<#if id??>
+        						${idSymbol}SYS_GUID()
+        					</#if>
+        				<#if tunnel_name??>
+        					${tunnel_nameSymbol}:tunnel_name
+        				</#if>
+        				<#if tunnel_code??>
+        					${tunnel_codeSymbol}:tunnel_code
+        				</#if>
+        				<#if construction_company??>
+        					${construction_companySymbol}:construction_company
+        				</#if>
+        				<#if tunnel_length??>
+        					${tunnel_lengthSymbol}:tunnel_length
+        				</#if>
+        				<#if tunnel_height??>
+        					${tunnel_heightSymbol}:tunnel_height
+        				</#if>
+        				<#if traffic_time??>
+        					${traffic_timeSymbol}:traffic_time
+        				</#if>
+        				<#if tunnel_direction??>
+        					${tunnel_directionSymbol}:tunnel_direction
+        				</#if>
+        				<#if longitude??>
+        					${longitudeSymbol}:longitude
+        				</#if>
+        				<#if latitude??>
+        					${latitudeSymbol}:latitude
+        				</#if>
+        				<#if office_code??>
+        					${office_codeSymbol}:office_code
+        				</#if>
+        				<#if create_timestamp??>
+        					${create_timestampSymbol}:create_timestamp
+        				</#if>
+			)
+	        ]]>
+	</sqlElement>
+	<sqlElement key="TL_TUNNEL_INFO#delete" author="auto_generator">  
+        <![CDATA[ 
+        	delete from 
+        		TL_TUNNEL_INFO
+        	where 1=1
+        		<#if id??>
+        			and id=:id
+        		</#if>
+        		<#if tunnel_name??>
+        			and tunnel_name=:tunnel_name
+        		</#if>
+        		<#if tunnel_code??>
+        			and tunnel_code=:tunnel_code
+        		</#if>
+        		<#if construction_company??>
+        			and construction_company=:construction_company
+        		</#if>
+        		<#if tunnel_length??>
+        			and tunnel_length=:tunnel_length
+        		</#if>
+        		<#if tunnel_height??>
+        			and tunnel_height=:tunnel_height
+        		</#if>
+        		<#if traffic_time??>
+        			and traffic_time=:traffic_time
+        		</#if>
+        		<#if tunnel_direction??>
+        			and tunnel_direction=:tunnel_direction
+        		</#if>
+        		<#if longitude??>
+        			and longitude=:longitude
+        		</#if>
+        		<#if latitude??>
+        			and latitude=:latitude
+        		</#if>
+        		<#if office_code??>
+        			and office_code=:office_code
+        		</#if>
+        		<#if create_timestamp??>
+        			and create_timestamp=:create_timestamp
+        		</#if>
+        ]]>
+	</sqlElement>	
+	<sqlElement key="TL_TUNNEL_INFO#update" author="auto_generator">  
+        <![CDATA[ 
+        	update 
+        		TL_TUNNEL_INFO
+        	set
+        		<#if tunnel_name??>
+        			${tunnel_nameSymbol} tunnel_name=:tunnel_name
+        		</#if>
+        		<#if tunnel_code??>
+        			${tunnel_codeSymbol} tunnel_code=:tunnel_code
+        		</#if>
+        		<#if construction_company??>
+        			${construction_companySymbol} construction_company=:construction_company
+        		</#if>
+        		<#if tunnel_length??>
+        			${tunnel_lengthSymbol} tunnel_length=:tunnel_length
+        		</#if>
+        		<#if tunnel_height??>
+        			${tunnel_heightSymbol} tunnel_height=:tunnel_height
+        		</#if>
+        		<#if traffic_time??>
+        			${traffic_timeSymbol} traffic_time=:traffic_time
+        		</#if>
+        		<#if tunnel_direction??>
+        			${tunnel_directionSymbol} tunnel_direction=:tunnel_direction
+        		</#if>
+        		<#if longitude??>
+        			${longitudeSymbol} longitude=:longitude
+        		</#if>
+        		<#if latitude??>
+        			${latitudeSymbol} latitude=:latitude
+        		</#if>
+        		<#if office_code??>
+        			${office_codeSymbol} office_code=:office_code
+        		</#if>
+        		<#if create_timestamp??>
+        			${create_timestampSymbol} create_timestamp=:create_timestamp
+        		</#if>
+        	where 1=1
+			  	and id=:id
+        ]]>
+	</sqlElement>
+	<sqlElement key="TL_TUNNEL_INFO#update_all" author="auto_generator">  
+        <![CDATA[ 
+        	update 
+        		TL_TUNNEL_INFO
+        	set
+    			tunnel_name=:tunnel_name,
+    			tunnel_code=:tunnel_code,
+    			construction_company=:construction_company,
+    			tunnel_length=:tunnel_length,
+    			tunnel_height=:tunnel_height,
+    			traffic_time=:traffic_time,
+    			tunnel_direction=:tunnel_direction,
+    			longitude=:longitude,
+    			latitude=:latitude,
+    			office_code=:office_code,
+    			create_timestamp=:create_timestamp
+        	where 1=1
+			  	and id=:id
+        ]]>
+	</sqlElement>
+	<sqlElement key="TL_TUNNEL_INFO#list" author="auto_generator">  
+        <![CDATA[ 
+        	select
+        		id,
+        		tunnel_name,
+        		tunnel_code,
+        		construction_company,
+        		tunnel_length,
+        		tunnel_height,
+        		traffic_time,
+        		tunnel_direction,
+        		longitude,
+        		latitude,
+        		office_code,
+        		create_timestamp
+        	from
+        		TL_TUNNEL_INFO
+        	where 1=1
+        		<#if exclude_pk??>
+        			<#if id??>
+        				and id!=:id
+        			</#if>
+        		<#else>
+        			<#if id??>
+        				and id=:id
+        			</#if>
+        		</#if>
+        		<#if tunnel_name??>
+        			and tunnel_name=:tunnel_name
+        		</#if>
+        		<#if tunnel_code??>
+        			and tunnel_code=:tunnel_code
+        		</#if>
+        		<#if construction_company??>
+        			and construction_company=:construction_company
+        		</#if>
+        		<#if tunnel_length??>
+        			and tunnel_length=:tunnel_length
+        		</#if>
+        		<#if tunnel_height??>
+        			and tunnel_height=:tunnel_height
+        		</#if>
+        		<#if traffic_time??>
+        			and traffic_time=:traffic_time
+        		</#if>
+        		<#if tunnel_direction??>
+        			and tunnel_direction=:tunnel_direction
+        		</#if>
+        		<#if longitude??>
+        			and longitude=:longitude
+        		</#if>
+        		<#if latitude??>
+        			and latitude=:latitude
+        		</#if>
+        		<#if office_code??>
+        			and office_code=:office_code
+        		</#if>
+        		<#if create_timestamp??>
+        			and create_timestamp=:create_timestamp
+        		</#if>
+        ]]>
+	</sqlElement>
+	<sqlElement key="TL_TUNNEL_INFO#list_by_or" author="auto_generator">  
+        <![CDATA[ 
+	        select
+        		id,
+        		tunnel_name,
+        		tunnel_code,
+        		construction_company,
+        		tunnel_length,
+        		tunnel_height,
+        		traffic_time,
+        		tunnel_direction,
+        		longitude,
+        		latitude,
+        		office_code,
+        		create_timestamp
+        	from
+        		TL_TUNNEL_INFO
+        	where 1=1
+    		<#if params_exists??>
+        		<#if exclude_pk??>
+        			<#if id??>
+        				and id!=:id
+        			</#if>
+        			and (
+        		<#else>
+        			and (
+        			<#if id??>
+        				${idSymbol} id=:id
+        			</#if>
+        		</#if>
+        		<#if tunnel_name??>
+        			${tunnel_nameSymbol} tunnel_name=:tunnel_name
+        		</#if>
+        		<#if tunnel_code??>
+        			${tunnel_codeSymbol} tunnel_code=:tunnel_code
+        		</#if>
+        		<#if construction_company??>
+        			${construction_companySymbol} construction_company=:construction_company
+        		</#if>
+        		<#if tunnel_length??>
+        			${tunnel_lengthSymbol} tunnel_length=:tunnel_length
+        		</#if>
+        		<#if tunnel_height??>
+        			${tunnel_heightSymbol} tunnel_height=:tunnel_height
+        		</#if>
+        		<#if traffic_time??>
+        			${traffic_timeSymbol} traffic_time=:traffic_time
+        		</#if>
+        		<#if tunnel_direction??>
+        			${tunnel_directionSymbol} tunnel_direction=:tunnel_direction
+        		</#if>
+        		<#if longitude??>
+        			${longitudeSymbol} longitude=:longitude
+        		</#if>
+        		<#if latitude??>
+        			${latitudeSymbol} latitude=:latitude
+        		</#if>
+        		<#if office_code??>
+        			${office_codeSymbol} office_code=:office_code
+        		</#if>
+        		<#if create_timestamp??>
+        			${create_timestampSymbol} create_timestamp=:create_timestamp
+        		</#if>
+    			)
+    		</#if>
+        ]]>
+	</sqlElement>
+</sqls>

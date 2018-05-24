@@ -1,0 +1,33 @@
+#header {
+	TEXT-ALIGN: center; WIDTH: 1000px; HEIGHT: 224px
+}
+.banner {
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 225px
+}
+.m_banner {
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 225px
+}
+.m_banner .return_link {
+	POSITION: absolute; LINE-HEIGHT: 20px; HEIGHT: 20px; COLOR: #999; FONT-SIZE: 12px; TOP: 10px; FONT-WEIGHT: bold; LEFT: 940px
+}
+.m_banner .department_name {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 50px; HEIGHT: 50px; COLOR: #015287; FONT-SIZE: 46px; TOP: 60px; RIGHT: 460px; FONT-WEIGHT: bold
+}
+.m_banner .department_name_bg {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 50px; HEIGHT: 50px; COLOR: #015287; FONT-SIZE: 46px; TOP: 60px; RIGHT: 460px; FONT-WEIGHT: bold
+}
+.m_banner .department_name_bg {
+	COLOR: #fff; TOP: 58px; RIGHT: 457px
+}
+.navigation {
+	BACKGROUND-IMAGE: url(../images/Tag/Tag_Background.png); TEXT-ALIGN: center; LINE-HEIGHT: 56px; MARGIN-TOP: 0px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 56px; FONT-SIZE: 14px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.navigation DIV {
+	HEIGHT: 55px
+}
+.navigation SPAN {
+	BORDER-BOTTOM: #ccf 0px solid; BORDER-LEFT: #ccf 0px solid; MARGIN-TOP: 0px; WIDTH: 75px; DISPLAY: inline-block; BORDER-TOP: #ccf 0px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccf 0px solid
+}
+.navigation SPAN A {
+	COLOR: #fff
+}

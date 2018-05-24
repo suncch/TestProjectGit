@@ -1,0 +1,241 @@
+﻿.l-icon{ width:16px; height:16px; overflow:hidden;}
+/*新增*/
+.l-icon-add{ background:url('../images/icons/add.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-add {background:url('../images/icons/add-over.gif') no-repeat center;}
+/*修改*/
+.l-icon-modify{ background:url('../images/icons/modify.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-modify{ background:url('../images/icons/modify-over.gif') no-repeat center;}
+/*删除*/
+.l-icon-delete{ background:url('../images/icons/delete.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-delete{ background:url('../images/icons/delete-over.gif') no-repeat center;}
+/*导出*/
+.l-icon-export{ background:url('../images/icons/export.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-export{ background:url('../images/icons/export-over.gif') no-repeat center;}
+/*通过审核*/
+.l-icon-pass{ background:url('../images/icons/pass.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-pass{ background:url('../images/icons/pass-over.gif') no-repeat center;}
+/*重新打开*/
+.l-icon-reopen{ background:url('../images/icons/reopen.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-reopen{ background:url('../images/icons/reopen-over.gif') no-repeat center;}
+/*派发*/
+.l-icon-payout{ background:url('../images/icons/payout.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-payout{ background:url('../images/icons/payout-over.gif') no-repeat center;}
+/*关闭*/
+.l-icon-close{ background:url('../images/icons/close.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-close{ background:url('../images/icons/close-over.gif') no-repeat center;}
+/*详情*/
+.l-icon-particulars{ background:url('../images/icons/particulars.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-particulars{ background:url('../images/icons/particulars-over.gif') no-repeat center;}
+/*处理并关闭*/
+.l-icon-conductclose{ background:url('../images/icons/conductclose.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-conductclose{ background:url('../images/icons/conductclose-over.gif') no-repeat center;}
+/*报废*/
+.l-icon-scrap{ background:url('../images/icons/scrap.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-scrap {background:url('../images/icons/scrap-over.gif') no-repeat center;}
+/*禁用车辆*/
+.l-icon-forbidden{ background:url('../images/icons/forbidden.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-forbidden {background:url('../images/icons/forbidden-over.gif') no-repeat center;}
+/*变动记录管理*/
+.l-icon-changeRe{ background:url('../images/icons/changeRe.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-changeRe {background:url('../images/icons/changeRe-over.gif') no-repeat center;}
+/*发送消息*/
+.l-icon-sendinfo{ background:url('../images/icons/sendinfo.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-sendinfo {background:url('../images/icons/sendinfo-over.gif') no-repeat center;}
+/*消息详情*/
+.l-icon-infodetails{ background:url('../images/icons/infodetails.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-infodetails {background:url('../images/icons/infodetails-over.gif') no-repeat center;}
+/*任务详情*/
+.l-icon-task{ background:url('../images/icons/task.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-task {background:url('../images/icons/task-over.gif') no-repeat center;}
+/*新建消息*/
+.l-icon-addinfo{ background:url('../images/icons/addinfo.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-addinfo {background:url('../images/icons/addinfo-over.gif') no-repeat center;}
+/*转发消息*/
+.l-icon-transmit{ background:url('../images/icons/transmit.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-transmit {background:url('../images/icons/transmit-over.gif') no-repeat center;}
+
+
+
+/*************************许可审批图标***********************/
+/*不予许可*/
+.l-icon-notpass{ background:url('../images/icons/notpass.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-notpass {background:url('../images/icons/notpass-over.gif') no-repeat center;}
+/*决定*/
+.l-icon-decide{ background:url('../images/icons/decide.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-decide {background:url('../images/icons/decide-over.gif') no-repeat center;}
+/*派发管理处*/
+.l-icon-routeoffice{ background:url('../images/icons/routeoffice.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-routeoffice {background:url('../images/icons/routeoffice-over.gif') no-repeat center;}
+/*派发勘验*/
+.l-icon-routeinquest{ background:url('../images/icons/routeinquest.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-routeinquest {background:url('../images/icons/routeinquest-over.gif') no-repeat center;}
+/*审批意见*/
+.l-icon-opinion{ background:url('../images/icons/opinion.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-opinion {background:url('../images/icons/opinion-over.gif') no-repeat center;}
+/*专家论证*/
+.l-icon-expert{ background:url('../images/icons/expert.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-expert {background:url('../images/icons/expert-over.gif') no-repeat center;}
+/*许可决定书*/
+.l-icon-passbook{ background:url('../images/icons/passbook.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-passbook {background:url('../images/icons/passbook-over.gif') no-repeat center;}
+/*决定方式*/
+.l-icon-decideoption{ background:url('../images/icons/decideoption.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-decideoption {background:url('../images/icons/decideoption-over.gif') no-repeat center;}
+/*专家论证结果*/
+.l-icon-expertresult{ background:url('../images/icons/expertresult.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-expertresult {background:url('../images/icons/expertresult-over.gif') no-repeat center;}
+/*资格审查*/
+.l-icon-applycheck{ background:url('../images/icons/applycheck.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-applycheck {background:url('../images/icons/applycheck-over.gif') no-repeat center;}
+/*申请详情*/
+.l-icon-applydetail{ background:url('../images/icons/applydetail.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-applydetail {background:url('../images/icons/applydetail-over.gif') no-repeat center;}
+/*勘验详情*/
+.l-icon-inquestdetail{ background:url('../images/icons/inquestdetail.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-inquestdetail {background:url('../images/icons/inquestdetail-over.gif') no-repeat center;}
+
+
+
+/*统计图*/
+.l-icon-statistics{ background:url('../images/icons/statistics.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-statistics{ background:url('../images/icons/statistics-over.gif') no-repeat center;}
+/*权限分配*/
+.l-icon-authority{ background:url('../images/icons/authority.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-authority{ background:url('../images/icons/authority-over.gif') no-repeat center;}
+/*查看*/
+.l-icon-lookup{ background:url('../images/icons/lookup.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-lookup{ background:url('../images/icons/lookup-over.gif') no-repeat center;}
+/*密码初始化*/
+.l-icon-initialize {background:url('../images/icons/initialize.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-initialize{ background:url('../images/icons/initialize-over.gif') no-repeat center;}
+/*查看编辑项目阶段*/
+.l-icon-Pstage {background:url('../images/icons/Pstage.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-Pstage{ background:url('../images/icons/Pstage-over.gif') no-repeat center;}
+/*批复*/
+.l-icon-reply {background:url('../images/icons/reply.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-reply{ background:url('../images/icons/reply-over.gif') no-repeat center;}
+/*上月*/
+.l-icon-lastmonth {background:url('../images/icons/lastmonth.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-lastmonth{ background:url('../images/icons/lastmonth-over.gif') no-repeat center;}
+/*下月*/
+.l-icon-nextmonth {background:url('../images/icons/nextmonth.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-nextmonth{ background:url('../images/icons/nextmonth-over.gif') no-repeat center;}
+/*本月*/
+.l-icon-month {background:url('../images/icons/month.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-month{ background:url('../images/icons/month-over.gif') no-repeat center;}
+/*添加工作*/
+.l-icon-addtask {background:url('../images/icons/addtask.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-addtask{ background:url('../images/icons/addtask-over.gif') no-repeat center;}
+/*请长假*/
+.l-icon-longleave {background:url('../images/icons/longleave.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-longleave{ background:url('../images/icons/longleave-over.gif') no-repeat center;}
+/*角色设置*/
+.l-icon-roleset {background:url('../images/icons/roleset.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-roleset{ background:url('../images/icons/roleset-over.gif') no-repeat center;}
+/*保存*/
+.l-icon-save{ background:url('../images/icons/save.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-save{ background:url('../images/icons/save-over.gif') no-repeat center;}
+/*导入*/
+.l-icon-import{ background:url('../images/icons/import.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-import{ background:url('../images/icons/import-over.gif') no-repeat center;}
+/*����*/
+.l-icon-paste{ background:url('../images/icons/paste.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-paste{ background:url('../images/icons/paste-over.gif') no-repeat center;}
+/*复制*/
+.l-icon-copy{ background:url('../images/icons/copy.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-copy{ background:url('../images/icons/copy-over.gif') no-repeat center;}
+/*变更*/
+.l-icon-change{ background:url('../images/icons/change.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-change{ background:url('../images/icons/change-over.gif') no-repeat center;}
+/*清空*/
+.l-icon-empty{ background:url('../images/icons/empty.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-empty{ background:url('../images/icons/empty-over.gif') no-repeat center;}
+/*记录*/
+.l-icon-record{ background:url('../images/icons/record.gif') no-repeat center;}
+.l-panel-record-over .l-icon-record {background:url('../images/icons/record-over.gif') no-repeat center;}
+/*报告*/
+.l-icon-report{ background:url('../images/icons/report.gif') no-repeat center;}
+.l-panel-report-over .l-icon-report {background:url('../images/icons/report-over.gif') no-repeat center;}
+/*复核*/
+.l-icon-review{ background:url('../images/icons/review.gif') no-repeat center;}
+.l-panel-review-over .l-icon-review {background:url('../images/icons/review-over.gif') no-repeat center;}
+/*审批*/
+.l-icon-approve{ background:url('../images/icons/approve.gif') no-repeat center;}
+.l-panel-approve-over .l-icon-approve {background:url('../images/icons/approve-over.gif') no-repeat center;}
+/*回退试验*/
+.l-icon-rollbackEX{ background:url('../images/icons/rollbackEX.gif') no-repeat center;}
+.l-panel-rollbackEX-over .l-icon-rollbackEX {background:url('../images/icons/rollbackEX-over.gif') no-repeat center;}
+/*测试数据*/
+.l-icon-testdata{ background:url('../images/icons/testdata.gif') no-repeat center;}
+.l-panel-testdata-over .l-icon-testdata {background:url('../images/icons/testdata-over.gif') no-repeat center;}
+/*视频检测*/
+.l-icon-videodete{ background:url('../images/icons/videodete.gif') no-repeat center;}
+.l-panel-videodete-over .l-icon-videodete {background:url('../images/icons/videodete-over.gif') no-repeat center;}
+/*�����־*/
+.l-icon-detectLog{ background:url('../images/icons/detectLog.gif') no-repeat center;}
+.l-panel-detectLog-over .l-icon-detectLog {background:url('../images/icons/detectLog-over.gif') no-repeat center;}
+/*委托*/
+.l-icon-entrust{ background:url('../images/icons/entrust.gif') no-repeat center;}
+.l-panel-entrust-over .l-icon-entrust {background:url('../images/icons/entrust-over.gif') no-repeat center;}
+/*刷新*/
+.l-icon-refresh{ background:url('../images/icons/refresh.gif') no-repeat center;}
+.l-panel-refresh-over .l-icon-refresh {background:url('../images/icons/refresh-over.gif') no-repeat center;}
+
+
+/*����ͳ�Ƽ�¼ͼ��*/
+.attendance1, .attendance2, .attendance3, .attendance4, .attendance5 {width:16px; height:16px; vertical-align:middle; text-align:center; margin:0 auto; background-image:url(../images/icons/attendance.gif); background-repeat:no-repeat;}
+.attendance1 {background-position:0 0;}/*�����*/
+.attendance2 {background-position:0 -16px;}/*����*/
+.attendance3 {background-position:0 -32px;}/*�¼�*/
+.attendance4 {background-position:0 -48px;}/*����*/
+.attendance5 {background-position:0 -64px;}/*����*/
+
+.l-icon-back{ background:url('../images/icons/back.gif') no-repeat center;}
+.l-icon-bluebook{ background:url('../images/icons/bluebook.gif') no-repeat center;}
+.l-icon-bookpen{ background:url('../images/icons/bookpen.gif') no-repeat center;} 
+.l-icon-coffee{ background:url('../images/icons/coffee.gif') no-repeat center;}
+.l-icon-cut{ background:url('../images/icons/cut.gif') no-repeat center;}
+.l-icon-discuss{ background:url('../images/icons/discuss.gif') no-repeat center;} 
+.l-icon-graywarn{ background:url('../images/icons/graywarn.gif') no-repeat center;}
+.l-icon-greenwarn{ background:url('../images/icons/greenwarn.gif') no-repeat center;}
+.l-icon-help{ background:url('../images/icons/help.gif') no-repeat center;}
+.l-icon-home{ background:url('../images/icons/home.gif') no-repeat center;}
+.l-icon-lock{ background:url('../images/icons/lock.gif') no-repeat center;}
+.l-icon-logout{ background:url('../images/icons/logout.gif') no-repeat center;}
+.l-icon-mailbox{ background:url('../images/icons/mailbox.gif') no-repeat center;}
+.l-icon-memeber{ background:url('../images/icons/memeber.gif') no-repeat center;}
+.l-icon-modify{ background:url('../images/icons/modify.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-modify{ background:url('../images/icons/modify-over.gif') no-repeat center;}
+.l-icon-reset{ background:url('../images/icons/reset.gif') no-repeat center;}
+.l-panel-btn-over .l-icon-reset{ background:url('../images/icons/reset-over.gif') no-repeat center;}
+.l-icon-msn{ background:url('../images/icons/msn.gif') no-repeat center;}
+.l-icon-ok{ background:url('../images/icons/ok.gif') no-repeat center;}
+.l-icon-outbox{ background:url('../images/icons/outbox.gif') no-repeat center;}
+.l-icon-pager{ background:url('../images/icons/pager.gif') no-repeat center;}
+.l-icon-photograph{ background:url('../images/icons/photograph.gif') no-repeat center;}
+.l-icon-prev{ background:url('../images/icons/prev.gif') no-repeat center;}
+.l-icon-print{ background:url('../images/icons/print.gif') no-repeat center;}
+.l-icon-qq{ background:url('../images/icons/qq.gif') no-repeat center;}
+.l-icon-refresh{ background:url('../images/icons/refresh.gif') no-repeat center;}
+.l-icon-right{ background:url('../images/icons/right.gif') no-repeat center;}
+.l-icon-save-disabled{ background:url('../images/icons/save-disabled.gif') no-repeat center;}
+.l-icon-save{ background:url('../images/icons/save.gif') no-repeat center;}
+.l-icon-search{ background:url('../images/icons/search.gif') no-repeat center;}
+.l-icon-search2{ background:url('../images/icons/search2.gif') no-repeat center;}
+.l-icon-settings{ background:url('../images/icons/settings.gif') no-repeat center;}
+.l-icon-TRUE{ background:url('../images/icons/TRUE.gif') no-repeat center;}
+.l-icon-up{ background:url('../images/icons/up.gif') no-repeat center;}
+.l-icon-role{ background:url('../images/icons/role.gif') no-repeat center;}
+.l-icon-config{ background:url('../images/icons/config.gif') no-repeat center;}
+.l-icon-address{ background:url('../images/icons/address.gif') no-repeat center;}
+.l-icon-process{ background:url('../images/icons/process.gif') no-repeat center;}
+.l-icon-archives{ background:url('../images/icons/archives.gif') no-repeat center;}
+.l-icon-attibutes{ background:url('../images/icons/attibutes.gif') no-repeat center;}
+.l-icon-busy{ background:url('../images/icons/busy.gif') no-repeat center;}
+.l-icon-calendar{ background:url('../images/icons/calendar.gif') no-repeat center;}
+.l-icon-comment{ background:url('../images/icons/comment.gif') no-repeat center;}
+.l-icon-plus{ background:url('../images/icons/plus.gif') no-repeat center;}
+.l-icon-communication{ background:url('../images/icons/communication.gif') no-repeat center;}
+.l-icon-customers{ background:url('../images/icons/customers.gif') no-repeat center;}
+.l-icon-database{ background:url('../images/icons/database.gif') no-repeat center;}
+.l-icon-myaccount{ background:url('../images/icons/myaccount.gif') no-repeat center;}

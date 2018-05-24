@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <sqls namespace="sys_pub">
+ 	<sqlElement key="sys_manage#get_user_role_list_phone"  author="gx">  
+        <![CDATA[ 
+		select distinct role_id as id,(select role_name from sys_role sr 
+		where sr.id=t.role_id and sr.enable_flag='1') as text from sys_user_role_scope t
+		where user_id=:user_id
+		and EXISTS (
+		select 1 from sys_role_menu_function t2 where t.role_id=t2.role_id 
+		and t2.func_id in (${funcIds})
+		order by role_id
+		)
+        ]]>
+	</sqlElement>
+
+	
+	<sqlElement key="sys_role_menu_function#list_ischeck"  author="tianxf">  
+        <![CDATA[ 
+        select t.*
+		<#if role_id??>
+        	,(select distinct t1.role_id from sys_role_menu_function t1 where t1.role_id=:role_id
+        		and t.id=t1.menu_id) as ischeck
+        </#if>
+        from sys_menu t 
+        where t.id in 
+        (select om.MENU_ID from SYS_OFFICE_REFER_MENU om, SYS_ROLE r where om.OFFICE_CODE = r.OFFICE_CODE and r.id = :role_id)
+        <#if sortname??> 
+		      order by ${sortname} ${sortorder} 
+		  </#if> 
+        ]]>
+	</sqlElement>
+	<sqlElement key="info_information_authority#bulist_ischeck"  author="whw">  
+        <![CDATA[ 
+      select t.*
+		<#if information_id ??>
+        ,(select distinct t1.bu_id from info_information_authority  t1 where t1.information_id=:information_id
+        and t.id=t1.bu_id) as ischeck
+        </#if>
+      from sys_bu t 
+        ]]>
+	</sqlElement>
+    <sqlElement key="info_information_authority#userlist_ischeck"  author="whw">  
+        <![CDATA[ 
+      select t.*
+		<#if information_id ??>
+        ,(select distinct t1.bu_id from info_information_authority  t1 where t1.information_id=:information_id
+        and t.id=t1.user_id) as ischeck
+        </#if>
+      from sys_user t 
+        ]]>
+	</sqlElement>
+	<sqlElement key="info_information_class#get_list"  author="whw">  
+        <![CDATA[ 
+         select DISTINCT ic.* from info_information_class ic,info_information_authority ia,info_information i
+          where ic.id=ia.information_class_id and ic.id=i.information_class_id
+          <#if user_id ??>
+            and ia.user_id=:user_id
+           </#if>
+           <#if information_class_id??> 
+		      and  i.information_class_id=:information_class_id
+		   </#if> 
+		   <#if info_title??> 
+		      and i.info_title like :info_title
+		   </#if>
+		   <#if begin_date??> 
+		       	and  i.create_timestamp >=to_timestamp(:begin_date,'yyyy-mm-dd hh24:mi:ss')
+		   	</#if> 
+		   	<#if end_date??> 
+		       	and  i.create_timestamp <=to_timestamp(:end_date,'yyyy-mm-dd hh24:mi:ss')
+		   	</#if> 
+		   	order by ic.id
+        ]]>
+	</sqlElement>
+	<sqlElement key="info_information#get_list"  author="whw">  
+        <![CDATA[ 
+         select DISTINCT i.* from info_information_class ic,info_information_authority ia,info_information i
+        where  ic.id=ia.information_class_id and ic.id=i.information_class_id
+          <#if user_id ??>
+            and ia.user_id=:user_id
+           </#if>
+           <#if information_class_id??> 
+		      and  i.information_class_id=:information_class_id
+		   </#if> 
+		   <#if info_title??> 
+		      and i.info_title like :info_title
+		   </#if>
+		   <#if begin_date??> 
+		       	and  i.create_timestamp >=to_timestamp(:begin_date,'yyyy-mm-dd hh24:mi:ss')
+		   	</#if> 
+		   	<#if end_date??> 
+		       	and  i.create_timestamp <=to_timestamp(:end_date,'yyyy-mm-dd hh24:mi:ss')
+		   	</#if> 
+		   	order by i.id
+        ]]>
+	</sqlElement>
+	
+	<sqlElement key="sys_user#get_all_user_list_by_deptid"  author="allen">  
+        <![CDATA[ 
+			select  id as user_id, user_code, user_realname 
+			  from  sys_user 
+			 where bu_id=:bu_id
+			 order by user_realname
+        ]]>
+	</sqlElement>
+
+	<sqlElement key="pm_work_load#all_workload_statistic_result_list"  author="allen">  
+        <![CDATA[ 
+			select  sta.user_id, u.bu_id, sta.bu_id, sta.proj_id, u.user_realname,
+					  b.bu_name, p.proj_name, p.proj_code, sta.work_time, sta.over_time, sta.leave_time
+			  from ( select user_id, bu_id, proj_id, sum(work_time) as work_time, 
+							    sum(over_time) as over_time, sum(leave_time) as leave_time
+					     from pm_work_load  pm
+					     
+					   where enable_flag='1' 
+					   
+					   	 <#if if_audit??>
+					   	    and if_audit=:if_audit
+					   	 </#if>
+					   	 
+					     <#if begindate??> 
+		       				and  work_date >= :begindate
+			   			</#if> 
+			   			
+			   			<#if enddate??> 
+			       			and  work_date <= :enddate
+			   			</#if> 
+			   			<#if bu_id??> 
+			       			and  bu_id = :bu_id
+			   			</#if> 
+			   			
+			   			
+					 group by user_id, bu_id, proj_id ) as sta 
+					 
+			      join sys_user u on sta.user_id=u.id
+			      join sys_bu b on sta.bu_id=b.id
+			      join sys_project p on sta.proj_id=p.id
+			
+			where 1=1 
+			  <#if user_bu_id??>
+				and u.bu_id=:user_bu_id 
+			  </#if>
+			   
+			  <#if proj_id??>
+				and sta.proj_id=:proj_id
+			  </#if>
+			   
+			order by user_id,sta.bu_id,sta.proj_id
+			
+        ]]>
+	</sqlElement>
+	
+		<sqlElement key="pm_work_reply#listby_user_id_and_user_grade"  author="tianxf">  
+        <![CDATA[ 
+	   select w.id, w.user_id, w.bu_id, w.proj_id, w.phases_id, w.work_date, w.work_time, 
+       w.over_time, w.leave_time, w.work_content, w.work_explain, w.memo, w.op_date, 
+       w.if_audit, w.audit_man, w.enable_flag, w.create_user, w.create_timestamp, 
+       w.last_update_user, w.last_update_timestamp, w.last_update_remark, 
+       w.audit_time,
+     
+       (case when '10'=:user_grade then (SELECT array_to_string(array(  
+  		 SELECT (select user_realname from sys_user su where wr.user_id=su.id)||':'||reply_content   FROM pm_work_reply wr where  wr.work_load_id=w.id   
+ 		), '<br />') ) else 
+ 		(SELECT reply_content  FROM pm_work_reply wr where  wr.work_load_id=w.id and wr.user_id=:user_id ) end ) as reply_content
+       FROM pm_work_load w,v_user_dept u where w.user_id=u.id and w.id=:id
+
+			
+        ]]>
+	</sqlElement>
+
+	<sqlElement key="sys_holiday#judge_is_holiday_by_date"  author="allen">  
+        <![CDATA[ 
+			select  count(1) as num 
+			  from  sys_holiday 
+			 where holiday_date = :holiday_date
+        ]]>
+	</sqlElement>
+	
+	<sqlElement key="pm_work_load#all_workload_statistic_sumresult_list"  author="allen">  
+        <![CDATA[ 
+			select  count(1) count_num, sum(sta.work_time) sum_work_time, sum(sta.over_time) sum_over_time, sum(sta.leave_time) sum_leave_time
+			  from ( select user_id, bu_id, proj_id, sum(work_time) as work_time, 
+							    sum(over_time) as over_time, sum(leave_time) as leave_time
+					     from pm_work_load  pm
+					     
+					   where enable_flag='1' 
+					   
+					   	 <#if if_audit??>
+					   	    and if_audit=:if_audit
+					   	 </#if>
+					   	 
+					     <#if begindate??> 
+		       				and  work_date >= :begindate
+			   			</#if> 
+			   			
+			   			<#if enddate??> 
+			       			and  work_date <= :enddate
+			   			</#if> 
+			   			<#if bu_id??> 
+			       			and  bu_id = :bu_id
+			   			</#if> 
+			   			
+			   			
+					 group by user_id, bu_id, proj_id ) as sta 
+					 
+			      join sys_user u on sta.user_id=u.id
+			      join sys_bu b on sta.bu_id=b.id
+			      join sys_project p on sta.proj_id=p.id
+			
+			where 1=1 
+			  <#if proj_id??>
+				and sta.proj_id=:proj_id
+			  </#if>
+			   <#if user_bu_id??>
+				and u.bu_id=:user_bu_id 
+			  </#if>
+			
+        ]]>
+	</sqlElement>
+	
+	
+	<sqlElement key="sys_holiday#get_all_holiday_list_by_date_scope"  author="allen">  
+        <![CDATA[ 
+			select to_char(holiday_date, 'yyyy-mm-dd')  as holiday_date 
+			  from sys_holiday 
+			where 1=1
+				<#if begin_date??> 
+		       		and  holiday_date >= :begin_date
+			   	</#if> 
+			   			
+			   	<#if end_date??> 
+			       	and  holiday_date <= :end_date
+			   	</#if> 
+        ]]>
+	</sqlElement>
+</sqls>

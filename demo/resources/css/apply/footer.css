@@ -1,0 +1,21 @@
+#footer {
+	TEXT-ALIGN: center; WIDTH: 1000px; HEIGHT: 140px; COLOR: #04477c; FONT-SIZE: 10px; PADDING-TOP: 12px
+}
+#footer .line {
+	BACKGROUND-IMAGE: url(images/titleBg.jpg); BACKGROUND-COLOR: #cdd6dd; WIDTH: 100%; MARGIN-BOTTOM: 5px; HEIGHT: 25px
+}
+#footer .content {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 1000px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 20px
+}
+#footer .content TD {
+	TEXT-ALIGN: center
+}
+#footer .link A {
+	COLOR: #04477c
+}
+#footer .link SPAN {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: inline-block; WHITE-SPACE: nowrap; PADDING-TOP: 5px
+}
+#footer .reserve {
+	
+}

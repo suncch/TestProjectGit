@@ -1,0 +1,51 @@
+
+body {
+    background-color: #fff;
+    font: 12px/1.2em "Microsoft YaHei";
+    text-align: center;
+    scrollbar-face-color:#F3F3F3; /*面子*/  
+    scrollbar-arrow-color:#C0C0C0; /*箭头*/  
+    scrollbar-3dlight-color:#C0C0C0; /*最外左*/  
+    scrollbar-highlight-color:#FFFFFF; /*左二*/  
+    scrollbar-shadow-color:#FFFFFF; /*右二*/  
+    scrollbar-darkshadow-color:#C0C0C0; /*右一*/  
+    scrollbar-track-color:#F3F3F3; /*滑道*/ 
+}
+a {
+    color: #0287ca;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+li:hover {
+    text-decoration: none;
+}
+ul, li {
+    list-style: outside none none;
+}
+img {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+}
+#container {
+    background-color: #f6f7f9;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+}
+#content {
+    margin: 0 auto;
+    padding-top: 1px;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+}

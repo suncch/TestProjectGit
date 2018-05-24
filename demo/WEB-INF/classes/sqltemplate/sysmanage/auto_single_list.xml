@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqls namespace="autosingle2">
+	<sqlElement key="tl_tunnel_info#list"  author="auto_generator">  
+        <![CDATA[ 
+          select  
+              id,
+              tunnel_name,
+              tunnel_code,
+              construction_company,
+              tunnel_length,
+              tunnel_height,
+              to_char(traffic_time, 'yyyy-mm-dd')  as traffic_time,
+              tunnel_direction,
+              longitude,
+              latitude,
+              office_code,
+              (select d.office_name from sys_database_list d where d.office_code=tl_tunnel_info.office_code) as office_name,
+              to_char(create_timestamp, 'yyyy-mm-dd hh24:mi:ss')  as create_timestamp
+
+          from  tl_tunnel_info
+          where 1=1
+          <#if office_code??> 
+              and office_code = :office_code
+          </#if> 
+          <#if tunnel_code??> 
+              and tunnel_code = :tunnel_code
+          </#if>
+          <#if sortname??> 
+              order by nlssort(tunnel_name,'NLS_SORT=SCHINESE_PINYIN_M'), ${sortname} ${sortorder} 
+          </#if> 
+
+        ]]>
+    </sqlElement>
+    
+    <sqlElement key="tl_tunnel_info#update"  author="auto_generator">  
+        <![CDATA[ 
+          update
+              tl_tunnel_info
+          set
+          <#if id??>
+              id = :id,
+          <#else>
+              id = null,
+          </#if>
+          <#if tunnel_name??>
+              tunnel_name = :tunnel_name,
+          <#else>
+              tunnel_name = null,
+          </#if>
+          <#if tunnel_code??>
+              tunnel_code = :tunnel_code,
+          <#else>
+              tunnel_code = null,
+          </#if>
+          <#if construction_company??>
+              construction_company = :construction_company,
+          <#else>
+              construction_company = null,
+          </#if>
+          <#if tunnel_length??>
+              tunnel_length = :tunnel_length,
+          <#else>
+              tunnel_length = null,
+          </#if>
+          <#if tunnel_height??>
+              tunnel_height = :tunnel_height,
+          <#else>
+              tunnel_height = null,
+          </#if>
+          <#if traffic_time??>
+              traffic_time = :traffic_time,
+          <#else>
+              traffic_time = null,
+          </#if>
+          <#if tunnel_direction??>
+              tunnel_direction = :tunnel_direction,
+          <#else>
+              tunnel_direction = null,
+          </#if>
+          <#if longitude??>
+              longitude = :longitude,
+          <#else>
+              longitude = null,
+          </#if>
+          <#if latitude??>
+              latitude = :latitude,
+          <#else>
+              latitude = null,
+          </#if>
+          <#if office_code??>
+              office_code = :office_code,
+          <#else>
+              office_code = null,
+          </#if>
+          <#if create_timestamp??>
+              create_timestamp = :create_timestamp
+          <#else>
+              create_timestamp = null
+          </#if>
+
+          where 1=1
+          <#if pkName??>
+              and pkName = :pkName
+          </#if>
+
+        ]]>
+    </sqlElement>
+	
+</sqls>

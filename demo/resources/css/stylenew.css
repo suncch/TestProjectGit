@@ -1,0 +1,482 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li {
+	list-style: none;
+}
+
+.wap {
+	width: 800px;
+	height: 460px;
+	margin: 30px auto;
+}
+
+.box {
+	width: auto;
+	height: auto;
+}
+
+.box1 {
+	width: 796px;
+	height: 210px;
+}
+
+.box2 {
+	position: relative;
+}
+
+.sgd {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/sgd.png) no-repeat;
+}
+.sgd_g {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/sgd.gif) no-repeat;
+}
+.o_sgd {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/o_sgd.png) no-repeat;
+}
+
+
+.line01 {
+	float: left;
+	margin-top: 40px;
+}
+
+.line1 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	background: url(../images/casestatenew/jiantou1_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(-28deg);
+	-o-transform: rotate(-28deg);
+	-webkit-transform: rotate(-28deg);
+	-moz-transform: rotate(-28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=-0.96260586631357, M12=0.27090578830787, M21=-0.27090578830787,
+		M22=0.96260586631357);
+}
+.o_line1 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	background: url(../images/casestatenew/jiantou01_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(-28deg);
+	-o-transform: rotate(-28deg);
+	-webkit-transform: rotate(-28deg);
+	-moz-transform: rotate(-28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=-0.96260586631357, M12=0.27090578830787, M21=-0.27090578830787,
+		M22=0.96260586631357);
+}
+
+.line2 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	margin-top: 80px;
+	background: url(../images/casestatenew/jiantou1_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(28deg);
+	-o-transform: rotate(28deg);
+	-webkit-transform: rotate(28deg);
+	-moz-transform: rotate(28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+.o_line2 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	margin-top: 80px;
+	background: url(../images/casestatenew/jiantou01_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(28deg);
+	-o-transform: rotate(28deg);
+	-webkit-transform: rotate(28deg);
+	-moz-transform: rotate(28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.boxul {
+	float: left;
+	margin-top: 10px;
+}
+
+.lx {
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/lx.png) no-repeat;
+}
+.lx_g {
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/lx.gif) no-repeat;
+}
+.o_lx {
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/o_lx.png) no-repeat;
+}
+
+.dsf {
+	margin-top: 100px;
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/dsf.png) no-repeat;
+}
+.dsf_g {
+	margin-top: 100px;
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/dsf.gif) no-repeat;
+}
+.o_dsf {
+	margin-top: 100px;
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/o_dsf.png) no-repeat;
+}
+
+.jkzx {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/jkzx.png) no-repeat;
+}
+.jkzx_g {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/jkzx.gif) no-repeat;
+}
+.o_jkzx {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/o_jkzx.png) no-repeat;
+}
+
+/*.line02{ float:left;
+         margin-top:40px;
+         }	*/
+
+.line3 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	background: url(../images/casestatenew/jiantou1_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(28deg);
+	-o-transform: rotate(28deg);
+	-webkit-transform: rotate(28deg);
+	-moz-transform: rotate(28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+.o_line3 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	background: url(../images/casestatenew/jiantou01_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(28deg);
+	-o-transform: rotate(28deg);
+	-webkit-transform: rotate(28deg);
+	-moz-transform: rotate(28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line3text { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	margin-left: 10px;
+	color: #033040;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	transform: rotate(28deg);
+	-o-transform: rotate(28deg);
+	-webkit-transform: rotate(28deg);
+	-moz-transform: rotate(28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line4text { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	margin-left: 10px;
+	margin-top: 20px;
+	color: #033040;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	transform: rotate(-28deg);
+	-o-transform: rotate(-28deg);
+	-webkit-transform: rotate(-28deg);
+	-moz-transform: rotate(-28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line4 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	background: url(../images/casestatenew/jiantou1_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(-28deg);
+	-o-transform: rotate(-28deg);
+	-webkit-transform: rotate(-28deg);
+	-moz-transform: rotate(-28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+.o_line4 { /*position: absolute;
+       top:154px;
+	   left:143px; */
+	background: url(../images/casestatenew/jiantou01_23.png) no-repeat;
+	width: 97px;
+	height: 29px;
+	transform: rotate(-28deg);
+	-o-transform: rotate(-28deg);
+	-webkit-transform: rotate(-28deg);
+	-moz-transform: rotate(-28deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line02 {
+	float: left;
+	margin-top: 65px;
+	position: relative;
+}
+
+.line5 {
+	background: url(../images/casestatenew/jiantou2_16.png) no-repeat;
+	width: 111px;
+	height: 34px;
+}
+.o_line5 {
+	background: url(../images/casestatenew/jiantou02_16.png) no-repeat;
+	width: 111px;
+	height: 34px;
+}
+
+.line5text {
+	margin-left: 10px;
+	color: #033040;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	position: absolute;
+	top: -15px;
+	left: 0px;
+}
+
+.line6text {
+	margin-left: 10px;
+	color: #033040;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-left: 20px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+
+.line6 {
+	margin-top: 20px;
+	background: url(../images/casestatenew/jiantou2_16.png) no-repeat;
+	width: 111px;
+	height: 34px;
+	transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+.o_line6 {
+	margin-top: 20px;
+	background: url(../images/casestatenew/jiantou02_16.png) no-repeat;
+	width: 111px;
+	height: 34px;
+	transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.kf {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/kf.png) no-repeat;
+}
+.o_kf {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/o_kf.png) no-repeat;
+}
+.kf_g {
+	width: 115px;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+	background: url(../images/casestatenew/kf.gif) no-repeat;
+}
+
+.lineimg {
+	float: left;
+	position: absolute;
+	top: -30px;
+	left: 40px;
+	width: 390px;
+	height: 147px;
+	background: url(../images/casestatenew/jiantou4_32.png) no-repeat;
+}
+.o_lineimg {
+	float: left;
+	position: absolute;
+	top: -30px;
+	left: 40px;
+	width: 390px;
+	height: 147px;
+	background: url(../images/casestatenew/jiantou04_32.png) no-repeat;
+}
+
+.ys {
+	float: left;
+	margin-top: 85px;
+	margin-left: 450px;
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/ys.png) no-repeat;
+}
+.ys_g {
+	float: left;
+	margin-top: 85px;
+	margin-left: 450px;
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/ys.gif) no-repeat;
+}
+.o_ys {
+	float: left;
+	margin-top: 85px;
+	margin-left: 450px;
+	width: 146px;
+	height: 46px;
+	background: url(../images/casestatenew/o_ys.png) no-repeat;
+}
+
+.line03 {
+	float: left;
+	margin-top: -40px;
+	margin-left: -115px;
+	position: relative;
+}
+
+.line7 {
+	float: left;
+	background: url(../images/casestatenew/jiantou3_25.png) no-repeat;
+	width: 32px;
+	height: 120px;
+	transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+.o_line7 {
+	float: left;
+	background: url(../images/casestatenew/jiantou03_25.png) no-repeat;
+	width: 32px;
+	height: 120px;
+	transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line7text {
+	position: absolute;
+	top: 50px;
+	left: -20px;
+	float: left;
+	margin-left: 0px;
+	color: #033040;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line8text {
+	margin-top: 35px;
+	float: left;
+	margin-left: -35px;
+	color: #033040;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+		M11=1.2660444431189777, M12=-0.3327876096865394, M21=0.1127876096865398,
+		M22=0.9660444431189779);
+}
+
+.line8 {
+	float: left;
+	background: url(../images/casestatenew/jiantou3_25.png) no-repeat;
+	width: 32px;
+	height: 120px;
+}
+.o_line8 {
+	float: left;
+	background: url(../images/casestatenew/jiantou03_25.png) no-repeat;
+	width: 32px;
+	height: 120px;
+}

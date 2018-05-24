@@ -1,0 +1,682 @@
+@charset "utf-8";
+/* CSS Document */
+.waper {
+	width: 774px;
+	height: 700px;
+	margin: 40px auto;
+}
+
+.images {
+	width: 774px;
+	height: 700px;
+	background: url(../images/home/liaoningmap.png) no-repeat;
+	float: left;
+	position: relative;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.miniicon1 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 325px;
+	left: 465px;
+}
+
+.miniicon1:hover {
+	background: url(../images/home/liaoyang_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 325px;
+	left: 435px;
+}
+
+.miniicon2 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	margin-top: 348px;
+	margin-left: 448px;
+}
+
+.miniicon2:hover {
+	background: url(../images/home/anshan_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	margin-left: 418px;
+}
+
+.miniicon3 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 410px;
+	left: 360px;
+}
+
+.miniicon3:hover {
+	background: url(../images/home/yingkou_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 410px;
+	left: 330px;
+}
+
+.miniicon4 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 658px;
+	left: 290px;
+}
+
+.miniicon4:hover {
+	background: url(../images/home/dalian_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 658px;
+	left: 260px;
+}
+
+.miniicon5 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 178px;
+	left: 540px;
+}
+
+.miniicon5:hover {
+	background: url(../images/home/tieling_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 178px;
+	left: 510px;
+}
+
+.miniicon6 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 345px;
+	left: 350px;
+}
+
+.miniicon6:hover {
+	background: url(../images/home/panjin_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 345px;
+	left: 320px;
+}
+
+.miniicon7 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 345px;
+	left: 240px;
+}
+
+.miniicon7:hover {
+	background: url(../images/home/jinzhou_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 345px;
+	left: 210px;
+}
+
+.miniicon8 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 215px;
+	left: 300px;
+}
+
+.miniicon8:hover {
+	background: url(../images/home/fuxin_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 215px;
+	left: 270px;
+}
+
+.miniicon9 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 280px;
+	left: 170px;
+}
+
+.miniicon9:hover {
+	background: url(../images/home/chaoyang_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 280px;
+	left: 140px;
+}
+
+.miniicon10 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 245px;
+	left: 495px;
+}
+
+.miniicon10:hover {
+	background: url(../images/home/shenyang_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 245px;
+	left: 465px;
+	z-index: 10;
+}
+
+.miniicon11 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 270px;
+	left: 520px;
+}
+
+.miniicon11:hover {
+	background: url(../images/home/taoxian_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 270px;
+	left: 490px;
+}
+
+.miniicon12 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 320px;
+	left: 530px;
+}
+
+.miniicon12:hover {
+	background: url(../images/home/benxi_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 320px;
+	left: 500px;
+}
+
+.miniicon13 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 485px;
+	left: 580px;
+}
+
+.miniicon13:hover {
+	background: url(../images/home/dandong_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 485px;
+	left: 550px;
+	z-index: 10;
+}
+
+.miniicon14 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 610px;
+	left: 325px;
+}
+
+.miniicon14:hover {
+	background: url(../images/home/dazhuang_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 610px;
+	left: 295px;
+}
+
+.miniicon15 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 220px;
+	left: 520px;
+}
+
+.miniicon15:hover {
+	background: url(../images/home/dongling_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 220px;
+	left: 490px;
+}
+
+.miniicon16 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 320px;
+	left: 720px;
+}
+
+.miniicon16:hover {
+	background: url(../images/home/huanren_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 320px;
+	left: 690px;
+}
+
+.miniicon17 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 490px;
+	left: 550px;
+}
+
+.miniicon17:hover {
+	background: url(../images/home/kuandian_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 490px;
+	left: 520px;
+}
+
+.miniicon18 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 100px;
+	left: 480px;
+}
+
+.miniicon18:hover {
+	background: url(../images/home/kangping_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 100px;
+	left: 450px;
+}
+
+.miniicon19 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 330px;
+	left: 40px;
+}
+
+.miniicon19:hover {
+	background: url(../images/home/lingyuan_04.png) no-repeat;
+	width: 83px;
+	height: 57px;
+	position: absolute;
+	top: 330px;
+	left: 10px;
+}
+
+.miniicon20 {
+	display: block;
+	width: 29px;
+	height: 21px;
+	background: url(../images/home/mini_04.png) no-repeat;
+	position: absolute;
+	top: 405px;
+	left: 205px;
+}
+
+.miniicon20:hover {
+	background: url(../images/home/huludao_04.png) no-repeat;
+	width: 96px;
+	height: 57px;
+	position: absolute;
+	top: 405px;
+	left: 175px;
+}
+/*.miniicon1{
+	       display:block;
+           width:83px;
+           height:57px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   background-position:31px 21px;
+		   margin-top:350px;
+		   margin-left:500px;
+		   
+		   }
+.miniicon1:hover{ background:url(../images/home/liaoyang_04.png) no-repeat;
+                }		   
+.miniicon2{ display:block;
+           width:83px;
+           height:57px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;
+		   background-position:31px 21px; 
+		   margin-top:-32px;
+		   margin-left:480px;
+		   }
+.miniicon2:hover{ background:url(../images/home/anshan_04.png) no-repeat;
+				  }		   
+.miniicon3{display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;   
+		   margin-top:42px;
+		   margin-left:-175px;
+		   }
+.miniicon3:hover{ background-images/home:url(../images/home/yingkou_04.png);
+                  width:83px;
+                  height:57px;
+				  margin-left:-185px;
+}	   
+.miniicon4{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:365px;
+		   margin-left:-190px;
+		   }
+.miniicon5{ display:block;
+           width:21px;
+           height:15px;
+		  background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:-185px;
+		   margin-left:90px;
+		   }
+.miniicon6{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:10px;
+		   margin-left:-135px;
+		   }		   		   		   		   		  	 
+.miniicon7{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:12px;
+		   margin-left:-250px;
+		   }
+.miniicon8{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:-138px;
+		   margin-left:-188px;
+		   }
+.miniicon9{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:-65px;
+		   margin-left:-335px;
+		   }		   
+.miniicon10{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:-105px;
+		   margin-left:40px;
+		   }
+.miniicon11{display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:-85px;
+		   margin-left:50px;
+		   }
+		   		 
+.miniicon12{display:block;
+           width:21px;
+           height:15px;
+		  background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:-20px;
+		   margin-left:80px;
+		   }
+.miniicon13{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:172px;
+		   margin-left:150px;
+		   }
+.miniicon14{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:330px;
+		   margin-left:-330px;
+		   }
+.miniicon15{display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:-115px;
+		   margin-left:-115px;
+		   }
+.miniicon16{display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:-18px;
+		   margin-left:115px;
+		   }		   
+.miniicon17{display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;  
+		   margin-top:175px;
+		   margin-left:-35px;
+		   }
+.miniicon18{
+	       display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat;    
+		   margin-top:-265px;
+		   margin-left:-145px;
+		   }
+		   		 
+.miniicon19{ display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:0px;
+		   margin-left:-650px;
+		   }
+.miniicon20{display:block;
+           width:21px;
+           height:15px;
+		   background:url(../images/home/21%C3%9715_03.png) no-repeat; 
+		   margin-top:75px;
+		   margin-left:-455px;
+		   }*/
+.bank {
+	width: 400px;
+	height: 30px;
+	float: left;
+	background: url(../images/home/text1back_06.png) no-repeat;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	line-height: 30px;
+}
+
+.bankul {
+	width: auto;
+	height: auto;
+}
+
+.bankul li {
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	float: left;
+}
+
+.li1 {
+	color: #000;
+	margin-left: 10px;
+}
+
+.li2 {
+	color: #1B8B2C;
+	margin-left: 20px;
+}
+
+.li3 {
+	color: #F53134;
+	margin-left: 20px;
+}
+
+.texts {
+	width: 110px;
+	height: 600px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 10px;
+	margin-top: 60px;
+	float: right;
+	background: url(../images/home/textback_03.png) no-repeat;
+}
+
+.textsul {
+	width: auto;
+	height: auto;
+}
+
+.text {
+	font-size: 14px;
+	/*font-family:"微软雅黑";*/
+	height: 30px;
+	line-height: 30px;
+	/*color:#000;*/
+}
+
+#number {
+	color: #0073c0;
+}
+
+.box {
+	width: 688px;
+	height: 400px;
+	margin: 0 auto;
+	/* border: 1px solid rgba(45, 43, 43, 1.00); */
+	padding-top: 38px;
+	overflow: auto;
+	overflow-y: hidden;
+}
+
+.boxul {
+	width: 623px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.boxul li {
+	float: left;
+}
+
+.ren {
+	width: 89px;
+	heigth: 150px;
+}
+
+.jiantou {
+	width: 89px;
+	height: 53px;
+	margin-top: 60px;
+}
+
+.dangqian1 {
+	width: 63px;
+	height: 87px;
+	margin-left: 45px;
+}
+
+.dangqian2 {
+	width: 63px;
+	height: 87px;
+	margin-left: 230px;
+}
+
+.dangqian3 {
+	width: 63px;
+	height: 87px;
+	margin-left: 405px;
+}
+
+.dangqian4 {
+	width: 63px;
+	height: 87px;
+	margin-left: 585px;
+}
+
+.dangqian5 {
+	width: 63px;
+	height: 87px;
+	margin-left: 50px;
+}

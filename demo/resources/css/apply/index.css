@@ -1,0 +1,119 @@
+.main {
+	TEXT-ALIGN: center; WIDTH: 100%
+}
+.containter {
+	MARGIN-TOP: 1px; WIDTH: 1000px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; 
+}
+.left_iframe {
+	MARGIN-TOP: 1px; WIDTH: 220px; FLOAT: left; MARGIN-LEFT: 3px; _margin-left: 0px
+}
+.left_iframe .title {
+	LINE-HEIGHT: 35px; MARGIN-TOP: 0px; WIDTH: 220px; BACKGROUND: url(images/titleBg.jpg); COLOR: #fefffa; FONT-SIZE: 15px
+}
+.business_link {
+	BORDER-BOTTOM: #3992d6 1px solid; BORDER-LEFT: #3992d6 1px solid; PADDING-BOTTOM: 10px; MIN-HEIGHT: 190px; WIDTH: 220px; BORDER-TOP: #3992d6 1px solid; BORDER-RIGHT: #3992d6 1px solid; _height: 190px
+}
+.business_link UL LI {
+	LINE-HEIGHT: 26px; MARGIN-TOP: 12px; WIDTH: 172px; HEIGHT: 26px; COLOR: #fefffa; FONT-SIZE: 14px
+}
+.business_link UL LI A {
+	BACKGROUND-IMAGE: url(images/bg_left.gif);TEXT-ALIGN: center; OUTLINE-STYLE: none; OUTLINE-COLOR: invert;  OUTLINE-WIDTH: medium; WIDTH: 172px; DISPLAY: block; HEIGHT: 25px; COLOR: #444444; TEXT-DECORATION: none
+}
+.business_link UL LI A:hover  {
+	BACKGROUND-IMAGE: url(images/bg_left_on.gif); COLOR: #ee5f01;
+}
+
+.login {
+	BORDER-BOTTOM: #3992d6 1px solid; BORDER-LEFT: #3992d6 1px solid; PADDING-BOTTOM: 10px; MARGIN-TOP: 5px; MIN-HEIGHT: 170px; WIDTH: 220px; BORDER-TOP: #3992d6 1px solid; BORDER-RIGHT: #3992d6 1px solid; _height: 170px
+}
+FIELDSET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+FIELDSET LABEL {
+	WIDTH: 60px; FLOAT: left; CLEAR: left
+}
+FIELDSET DIV {
+	TEXT-ALIGN: left; WIDTH: 200px; HEIGHT: 25px; MARGIN-LEFT: 10px; FONT-SIZE: 15px; PADDING-TOP: 10px
+}
+.zhuce {
+	BACKGROUND-IMAGE: url(images/zhuce.gif); WIDTH: 60px; FLOAT: right; HEIGHT: 26px; CURSOR: pointer; MARGIN-RIGHT: 15px;PADDING-TOP: 0px;
+}
+.denglu {
+	BACKGROUND-IMAGE: url(images/denglu.gif); WIDTH: 60px; FLOAT: right; HEIGHT: 26px; CURSOR: pointer; MARGIN-RIGHT: 15px;PADDING-TOP: 0px;
+}
+.user_info {
+	BORDER-BOTTOM: #3992d6 1px solid; BORDER-LEFT: #3992d6 1px solid; PADDING-BOTTOM: 10px; MARGIN-TOP: 15px; MIN-HEIGHT: 100px; WIDTH: 220px; BORDER-TOP: #3992d6 1px solid; BORDER-RIGHT: #3992d6 1px solid; _height: 100px
+}
+.user_info .content {
+	TEXT-ALIGN: left; LINE-HEIGHT: 2em; TEXT-INDENT: 2em
+}
+.right_iframe {
+	BORDER-BOTTOM: #e5e5e5 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #e5e5e5 1px solid; MARGIN-TOP: 1px; MIN-HEIGHT: 400px; WIDTH: 765px; FLOAT: left; MARGIN-LEFT: 10px; FONT-SIZE: 14px; BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid; _margin-left: 10px; _height: 400px; _width: 760px
+}
+.right_iframe .search {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; BACKGROUND-COLOR: rgb(205,230,250); WIDTH: 765px; FONT-FAMILY: "Microsoft YaHei"; HEIGHT: 100px; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+TABLE .search {
+	FONT-SIZE: 12px
+}
+TABLE .search td {
+	TEXT-ALIGN: center
+}
+.list_table {
+	BORDER-BOTTOM-COLOR: #a0c6e5; MARGIN-TOP: 10px; BORDER-TOP-COLOR: #a0c6e5; WIDTH: 745px; BORDER-COLLAPSE: collapse; BORDER-RIGHT-COLOR: #a0c6e5; MARGIN-LEFT: 10px; BORDER-LEFT-COLOR: #a0c6e5
+}
+.list_table CAPTION {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-WEIGHT: bold; PADDING-TOP: 5px;
+}
+.list_table TH {
+	BORDER-BOTTOM: #a0c6e5 1px solid; BORDER-LEFT: #a0c6e5 1px solid; FONT-FAMILY: "Microsoft YaHei"; HEIGHT: 35px; COLOR: black; FONT-SIZE: 14px; BORDER-TOP: #a0c6e5 1px solid; BORDER-RIGHT: #a0c6e5 1px solid
+}
+.list_table td {
+	BORDER-BOTTOM: #a0c6e5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #a0c6e5 1px solid; TEXT-OVERFLOW: ellipsis; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: nowrap; HEIGHT: 25px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #a0c6e5 1px solid; BORDER-RIGHT: #a0c6e5 1px solid
+}
+.page {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; MARGIN-TOP: 12px; WIDTH: 745px; FONT-FAMILY: Microsoft YaHei; FLOAT: left; HEIGHT: 30px; COLOR: #345; MARGIN-LEFT: 10px; FONT-SIZE: 14px; _margin-left: 5px
+}
+.page SPAN {
+	MARGIN: 0px 10px
+}
+.page A {
+	COLOR: #345; TEXT-DECORATION: none
+}
+.page A:hover {
+	COLOR: #3d88c2; CURSOR: pointer; TEXT-DECORATION: underline
+}
+.page A:visited {
+	TEXT-DECORATION: none
+}
+TABLE .input {
+	WIDTH: 100%
+}
+TABLE .input CAPTION {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 16px; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+TABLE .input td {
+	PADDING-LEFT: 3px; HEIGHT: 40px; FONT-SIZE: 12px
+}
+TABLE .input td INPUT[type='text'] {
+	WIDTH: 100%; HEIGHT: 20px
+}
+.point {
+	COLOR: red
+}
+.prompt {
+	TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: 400px; COLOR: red; FONT-SIZE: 16px; PADDING-TOP: 180px
+}
+.trdh {
+	BACKGROUND: url(images/titleBg.jpg); 
+}
+.inputtip{
+	width:100%;
+	height:auto;
+	padding-top:12px;
+	padding-bottom:8px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	overflow: visible;
+	float: left;
+}
